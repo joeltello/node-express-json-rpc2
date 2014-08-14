@@ -1,3 +1,4 @@
+### Original project [node-express-json-rpc2]
 ### Install
 
 node-express-json-rpc2 is a [JSON-RPC version 2 spec](http://www.jsonrpc.org/specification)-compliant handler middleware for the Express library on [node.js](http://nodejs.org). It is designed for use within routes. You can install it via:
@@ -115,3 +116,5 @@ The error code constants for reference:
 
 
 **Note:** For strict adherence to the specification, you cannot use bodyParser in conjuction with node-express-JSON-RPC2 because bodyParser will catch invalid JSON and return early, preventing a proper "Parse error" RPC response. If you are not terribly worried about strict compliance, using bodyParser is fine.
+
+[node-express-json-rpc2]:https://github.com/BrianBelhumeur/node-express-json-rpc2
