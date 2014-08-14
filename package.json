@@ -10,7 +10,6 @@
   "author": "Brian Belhumeur <belhumeur@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "1.x",
     "q": "1.0.1"
   },
   "repository": {
